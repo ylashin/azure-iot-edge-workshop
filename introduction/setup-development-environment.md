@@ -40,7 +40,7 @@ First, create a resource group to hold all resources in this master class. South
 
 Create a standard tier IoT hub. Standard tier is mainly required to use IoT Edge. The general advice is to use standard tier unless your solution is basically around telemetry collection. You will notice that in interactive mode we can skip typing the **az** command altogether. **Also IoT Hub name should be globally unique**. So try replacing any future `master-hub` reference with `<your-first-name>-master-hub` .
 
-`iot hub create --resource-group iotedge-rg --sku S1 --hub-name master-hub`
+`iot hub create --resource-group iotedge-rg --sku S1 --name master-hub`
 
 ![](../.gitbook/assets/image%20%28187%29.png)
 
